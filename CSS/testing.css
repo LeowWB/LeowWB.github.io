@@ -22,3 +22,17 @@ p a.arbitraryStyle
 {
 	font-size: 30px;
 }
+
+img#honk_img:hover
+{
+	animation-name: honk_img_rotate;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes honk_img_rotate
+{
+	from{transform: rotateZ(0deg);}
+	to{transform: rotateZ(359deg);}
+}
