@@ -1,5 +1,6 @@
 #header
 {
+	background: radial-gradient(ellipse, #a30000 10%, #330000 50%);
 }
 
 h1
@@ -9,6 +10,7 @@ h1
 
 #body
 {
+	background: radial-gradient(ellipse, #00a300 10%, #003300 50%);
 }
 
 p.arbitraryStyle
