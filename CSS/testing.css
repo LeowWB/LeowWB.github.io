@@ -3,7 +3,7 @@ header
 	background: radial-gradient(ellipse, #a30000 10%, #330000 50%);
 }
 
-h1
+header h1
 {
 	color: red;
 }
