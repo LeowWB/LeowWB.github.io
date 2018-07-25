@@ -1,3 +1,8 @@
+body
+{
+	background-color: powderblue;
+}
+
 header
 {
 	background: radial-gradient(ellipse, #a30000 10%, #330000 50%);
