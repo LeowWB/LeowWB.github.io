@@ -28,7 +28,13 @@ p a.arbitraryStyle
 	font-size: 30px;
 }
 
-img#honk_img:hover
+p textarea#honk_text
+{
+	height: 300px;
+	width: 500px;
+}
+
+p img#honk_img:hover
 {
 	animation-name: honk_img_rotate;
 	animation-duration: 2s;
