@@ -8,12 +8,6 @@ header h1
 	color: red;
 }
 
-/****
-#body
-{
-	background: radial-gradient(ellipse, #00a300 10%, #003300 50%);
-}
-
 p.arbitraryStyle
 {
 	color: blue;
@@ -23,4 +17,3 @@ p a.arbitraryStyle
 {
 	font-size: 30px;
 }
-****/
