@@ -1,4 +1,22 @@
+#header
+{
+}
+
 h1
 {
 	color: red;
+}
+
+#body
+{
+}
+
+p.arbitraryStyle
+{
+	color: blue;
+}
+
+p a.arbitraryStyle
+{
+	font-size: 30px;
 }
