@@ -1,3 +1,30 @@
+let ddMenuVisible = false;
+
+function dropDown()
+{
+	console.log("dropdown");
+	
+	let ddMenu = document.getElementById("test_dropdown_menu");
+	
+	if (ddMenu === null || ddMenu === undefined)
+		alert("crap");
+	else
+	{
+		if (ddMenuVisible)
+			ddMenu.style.display = "none";
+		else
+			ddMenu.style.display = "block";
+		
+		ddMenuVisible = !ddMenuVisible;
+	}
+}
+
+function dropDownBtn(displayText)
+{
+	dropDown();
+	alert(displayText);
+}
+
 function vehicleOverturn()
 {
 	alert("VEHICLE OVERTURN");

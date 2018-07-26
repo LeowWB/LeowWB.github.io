@@ -60,3 +60,54 @@ p img#honk_img:hover
 	from{transform: rotateZ(0deg);}
 	to{transform: rotateZ(359deg);}
 }
+
+/*
+	entire dropdown control item
+*/
+div.dropdown
+{
+	display: inline-block;
+	width: 300px;
+}
+
+/*
+	button that opens dropdown menu
+*/
+div.dropdown input.dropdown_button
+{
+	font-family: "Lucida Sans Unicode";
+	font-size: 20px;
+	width: 100%;
+	background-color: #333333;
+	color: white;
+}
+
+/*
+	opening and hiding menu section of dropdown
+*/
+div.dropdown_menu
+{
+	display: none;
+	position: absolute;
+	width: 300px;
+}
+
+/*
+	individual buttons in dropdown menu (each is an option)
+*/
+input.dropdown_menu_option
+{
+	display: block;
+	font-family: "Lucida Sans Unicode";
+	font-size: 15px;
+	width: 100%;
+	background-color: #333333;
+	color: white;
+	border: none;
+}
+
+input.dropdown_menu_option:hover
+{
+	background-color: white;
+	color: #333333;
+}
