@@ -7,20 +7,21 @@
 	</head>
 	<body>	
 		<header>
-			<h1> Hello Hello </h1>
+			<h1> Hello Hello welcome to my testing and proof of concept page</h1>
 		</header>
 		<p>
 			Hey, so as should be obvious to you by now, I'm not too sure what I'm doing.
 		</p>
 		<p class="arbitraryStyle">
-			But please bear with me for a while.
+			But please bear with me for <i>a while</i>.
 		</p>
 		<p>
 			<a href="https://leowwb.github.io" class="arbitraryStyle">main page of site</a>
 		</p>
 		<p>
 			<img id="honk_img" src="images/honk_profile.png" alt="best girl">
-			<textarea id="honk_text">tell us why you love honk, eg. she has a nice voice and is cute af</textarea>
+			<textarea id="honk_text" oninput="updateHonkText()">tell us why you love honk, eg. she has a nice voice and is cute af</textarea>
+			<textarea id="honk_text_bw" readonly></textarea>
 			<br></br>
 			<input type="button" value="vehicle overturn!" onClick="vehicleOverturn()">
 			<input type="button" value="stall for time" onClick="stallForTime()">

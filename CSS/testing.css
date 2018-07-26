@@ -10,11 +10,15 @@ body
 header
 {
 	background: radial-gradient(ellipse, #a30000 10%, #330000 50%);
+	height: 100px;
 }
 
 header h1
 {
 	color: red;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 40px;
+	font-variant: bold;
 }
 
 header h1:hover
@@ -24,7 +28,11 @@ header h1:hover
 
 p.arbitraryStyle
 {
+	font-size: 30px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-variant: bold;
 	color: blue;
+	text-transform: none;
 }
 
 p a.arbitraryStyle
@@ -32,7 +40,8 @@ p a.arbitraryStyle
 	font-size: 30px;
 }
 
-p textarea#honk_text
+p textarea#honk_text,
+p textarea#honk_text_bw
 {
 	height: 300px;
 	width: 500px;
