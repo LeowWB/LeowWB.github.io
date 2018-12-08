@@ -72,8 +72,6 @@ function updateHonkText()
 		let htv = honkText.value;
 		let htv2 = "";
 		
-		console.log(htv);
-		console.log(typeof htv);
 		for (let i = 0; i < htv.length; i++)
 		{
 			htv2 += htv[htv.length-1-i];
